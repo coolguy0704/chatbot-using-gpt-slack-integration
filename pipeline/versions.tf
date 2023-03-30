@@ -11,6 +11,10 @@ terraform {
 
 
 provider "aws" {
-  #profile = "default"
   region  = "us-east-1"
+  default_tags {
+    tags = {
+      ProjectName = "chatbot-using-gpt-slack-integration-pipeline"
+    }
+  }
 }

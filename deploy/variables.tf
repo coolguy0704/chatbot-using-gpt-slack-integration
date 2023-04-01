@@ -3,7 +3,7 @@ variable "prefix" {
 }
 
 variable "project" {
-  default = "recipe-app-api-devops"
+  default = "chatgpt-slack-integration"
 }
 
 variable "contact" {
@@ -11,7 +11,7 @@ variable "contact" {
 }
 
 variable "bastion_key_name" {
-  default = "recipe-app-api-devops-bastion"
+  default = "chatgpt-slack-devops-bastion"
 }
 variable "ecr_image_api" {
   description = "ECR Image for API"
